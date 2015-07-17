@@ -1,0 +1,43 @@
+package com.neolixhardwaredemo;
+
+public class Constants {
+    public static final String BOXID = "boxid";
+    public static final String SCANDATA = "scandata";
+    public static final String READDATA = "readdata";
+    public static final String SCANNER_RECEIVE = "android.intent.action.hal.barcodescanner.scandata";
+    public static final String RFID_RECEIVE = "android.intent.action.hal.rfidreader.readdata";
+    public static final String LOCK_DEBUG_RECEIVE = "android.intent.action.hal.lock.debug";
+    public static final String LOCK_DEBUG = "lockDebug";
+    public static final String PAPER_STATUS_RECEIVE = "android.intent.action.hal.printer.result.haspaper";
+    public static final String HASPAPER = "haspaper";
+    public static final String PRINTER_ACTION_PRINT = "android.intent.action.hal.printer.print";
+    public static final String PRINTER_ACTION_TRIGGER = "android.intent.action.hal.printer.onoff";
+    public static final String PRINTER_ACTION_HAS_PAPER = "android.intent.action.hal.printer.haspape";
+    public static final String LOCAL_TAG = "HardwareDemo";
+    public static final String BARCODE_SCANNER_ACTION_TRIGGER = "android.intent.action.hal.barcodescanner.onoff";
+    public static final String BARCODE_SCANNER_ACTION_SCAN = "android.intent.action.hal.barcodescanner.scan";
+    public static final String BARCODE_SCANNER_ACTION_CANCEL = "android.intent.action.hal.barcodescanner.cancel";
+    public static final String RFID_READER_ACTION_TRIGGER = "android.intent.action.hal.rfidreader.onoff";
+    public static final String RFID_READER_ACTION_READ = "android.intent.action.hal.rfidreader.read";
+    public static final String RFID_READER_ACTION_CANCEL = "android.intent.action.hal.rfidreader.cancel";
+    public static final String lOCK_CONTROLLER_TRIGGER = "android.intent.action.hal.iocontroller.onoff";
+    public static final String LOCK_CONTROLLER_OPEN = "android.intent.action.hal.iocontroller.open";
+    public static final String LOCK_CONTROLLER_SET = "android.intent.action.hal.iocontroller.set";
+    public static final String STATUS = "onoff";
+    public static final int STATUS_ON = 1;
+    public static final int STATUS_OFF = 0;
+    public static final int DEFAULT_EMPTY = -1;
+    public static final String IR_ISFULL = "android.intent.action.hal.infrared.isfull";
+    public static final String IR_TRIGGER = "android.intent.action.hal.infrared.enable";
+    public static final String LOCK_STATUS = "android.intent.action.hal.iocontroller.query";
+    public static final String IR_COUNT = "android.intent.action.hal.infrared.getcount";
+    public static final String LOCK_DROP_BOX_STATUS = "android.intent.action.hal.dropinbox.query";
+    public static final String OPEN_LED = "open_led";
+    public static final String CLOSE_LED = "close_led";
+    public static final String OPEN_SCANNER_LED = "open_scanner_led";
+    public static final String CLOSE_SCANNER_LED = "close_scanner_led";
+    public static final String OPEN_PRINT_LED = "open_print_led";
+    public static final String CLOSE_PRINT_LED = "close_print_led";
+    public static final String OPEN_RFID_LED = "open_RFID_led";
+    public static final String CLOSE_RFID_LED = "close_RFID_led";
+}
